@@ -38,5 +38,32 @@ public int tasaDeInteres (int capital, int interes, int tiempo){
     return 0;
 }
     
+    public int compra(int compra){
+       int  saldoCredi =5000;
+       int limite= 10000; 
+           if (limite>=compra){
+           int saldoTotal=saldoCredi-compra;
+               System.out.println("su Saldo total es "+ "Q" + saldoTotal);
+               
+           }else if (limite <compra){
+               System.out.println("el credito que pediste sobre pasa el limite de saldo, por favor abone mas o haga una compra menor");
+           
+       }
     
+        
+       
+       
+       
+       
+      return 0;  
+        
+    }
+    public int paga (int paga){
+        int saldoCredito1 = 5000;
+        int pagar = saldoCredito1+paga;
+        System.out.println("El saldo Total ahora despues de la paga es "+"Q"+pagar);
+        
+        return 0;
+        
+    }
 }
