@@ -3,12 +3,12 @@ package terminaldetarjetas;
 
 
 public class TarjetaCredito {
-       protected int limiteDeTarjetaCredito;
+       protected int limiteDeTarjetaCredito; // se ponen protected  para que se puedan usar si se heredan. o usar de una forma mas comun
     protected int saldoCredito;
   
 
        TarjetaCredito (){
-           this.limiteDeTarjetaCredito=10000;
+           this.limiteDeTarjetaCredito=10000;    //constructor para poder llamar con un metodo get.
            this.saldoCredito=5000;       
      
 }
@@ -64,7 +64,7 @@ public int tasaDeInteres (int capital, int interes, int tiempo){
         System.out.println("El saldo Total ahora despues de la paga es "+"Q"+pagar);
         
         return 0;
-        
+        // Aca los metodos solo resuelven y  tambien dan el resultado a la pantalla principal 
     }
        public int getLimiteDeTarjetaCredito() {
         return limiteDeTarjetaCredito;
@@ -75,7 +75,5 @@ public int tasaDeInteres (int capital, int interes, int tiempo){
     public int getSaldoCredito() {
         return saldoCredito;
     }
-    
-    
-    
+    // metodos get para arrojar el resultado del constructor a la pantalla principal 
 }
