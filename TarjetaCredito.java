@@ -66,4 +66,16 @@ public int tasaDeInteres (int capital, int interes, int tiempo){
         return 0;
         
     }
+       public int getLimiteDeTarjetaCredito() {
+        return limiteDeTarjetaCredito;
+    }
+    
+    
+    
+    public int getSaldoCredito() {
+        return saldoCredito;
+    }
+    
+    
+    
 }
