@@ -44,4 +44,14 @@ public class TarjetaDebito  extends TarjetaCredito{
            return 0;
     
     }
+        public int getLimiteDebito() { //los metodos get para llamarlo a la pantalla principal
+        return limiteDebito;
+    }
+    
+    public int getSaldo() {
+        return saldo;
+    }
+    
+    
+    
 }
