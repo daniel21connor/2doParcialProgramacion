@@ -49,15 +49,7 @@ public int tasaDeInteres (int capital, int interes, int tiempo){
                System.out.println("el credito que pediste sobre pasa el limite de saldo, por favor abone mas o haga una compra menor");
            
        }
-    
-        
-       
-       
-       
-       
-      return 0;  
-        
-    }
+           return 0;     }
     public int paga (int paga){
         int saldoCredito1 = 5000;
         int pagar = saldoCredito1+paga;
@@ -75,5 +67,5 @@ public int tasaDeInteres (int capital, int interes, int tiempo){
     public int getSaldoCredito() {
         return saldoCredito;
     }
-    // metodos get para arrojar el resultado del constructor a la pantalla principal 
+    // metodos get para arrojar el resultado del constructor a la pantalla principal
 }
