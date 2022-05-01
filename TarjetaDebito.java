@@ -1,7 +1,7 @@
 package terminaldetarjetas;
 
 
-public class TarjetaDebito  extends TarjetaCredito{
+public class TarjetaDebito  extends TarjetaCredito{ //herencia de TarjetaCredito 
      protected int limiteDebito;
     protected int saldo;
     
